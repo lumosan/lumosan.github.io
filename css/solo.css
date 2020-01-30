@@ -5,31 +5,23 @@ html {
   font: 20px/1.7 'Roboto', sans-serif;
 }
 
-@media (max-width: 325px) {
-  html { font: 18px/1.4 'Roboto', sans-serif; }
+@media (max-width: 480px) {
+  html { font: 17px/1.4 'Roboto', sans-serif; }
 }
 
 body {
   margin: 2rem 0 .5rem;
   color: #222;
   text-align: justify;
-  /*background-color: #121212;*/
 }
 
 @media (min-width: 600px) {
-  body {
-    margin-top: 3.5rem;
-  }
+  body { margin-top: 3.5rem; }
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: underline;
-  color: #00b0c4;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #00b0c4;
+  color: #018293;
 }
 
 a:hover, a:focus {
@@ -37,25 +29,12 @@ a:hover, a:focus {
   color: #dc3522;
 }
 
-h1 {
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
-  color: #252525;
-  text-rendering: optimizeLegibility;
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.2
-}
-
-h2, h3, h4, h5, h6 {
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.5rem -0.1rem;
   color: #111;
   text-rendering: optimizeLegibility;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed';
   line-height: 1.2
-}
-
-h2, h3 {
-  text-transform: uppercase;
-  color: #dc3522;
 }
 
 @media (max-width: 830px) {
@@ -66,10 +45,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  color: #252525;
+  font-family: 'Raleway';
   font-size: 45px;
-  margin-bottom: 1rem;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 1rem;
   margin-left: -2rem;
   margin-right: -2rem;
 }
@@ -86,28 +67,26 @@ h1 a {
 }
 
 h2 {
+  text-transform: uppercase;
   margin-bottom: .5rem;
   font-size: 20px;
   font-weight: 500;
-  /*margin-top: -2rem;*/
   color: #555;
   text-align: center;
-/*  margin-right: -4rem;
-  margin-left: -4rem;*/
 }
 
 @media (min-width: 600px) {
   h2 {
-    /*margin-bottom: 5rem;*/
     font-size: 25px;
-    /*margin-top: 2.5rem;*/
-/*    margin-right: -4rem;*/
   }
 }
 
 h3 {
+  text-transform: uppercase;
+  color: #dc3522;
   margin: 2rem -2rem 1.75rem -2rem;
   font-size: 28px;
+
 }
 
 @media (min-width: 600px) {
@@ -339,16 +318,17 @@ pre > code {
 }
 
 ::selection {
-  background: #b2ecf2;
+  background: #b2eaf5;
+  color: #222;
 }
 @media (prefers-color-scheme: dark) {
   body {color: #ddd; background-color: #232323}
-  a:link {color: #80e0eb;}
-  a:visited {color: #80e0eb;}
-  a:hover, a:focus {color: #ec9691;}
+  a:link {color: #8acec4;}
+  a:visited {color: #8acec4;}
+  a:hover, a:focus {color: #f3aa93;}
   h1 {color: #dadada;}
   h4, h5, h6 {color: #eee;}
-  h3 {color: #ec9691;}
+  h3 {color: #EF8E71;}
   h2 {color: #aaa}
   blockquote {color: #aaa;}
   .footnote {color: #bbb;}
@@ -361,6 +341,7 @@ pre > code {
   .footer a:visited {color: #ccc;}
   .footer a:hover, a:focus {color: #fff;}
   ::selection {
-    background: #ec9691;
+    background: #8acec4;
+    color: #ddd;
   }
 }
