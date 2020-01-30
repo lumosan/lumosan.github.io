@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,700);
 
 html {
-  font: 20px/1.5 'Roboto', sans-serif;
+  font: 20px/1.7 'Roboto', sans-serif;
 }
 
 @media (max-width: 325px) {
@@ -10,23 +10,31 @@ html {
 }
 
 body {
-  margin: 2rem 0 5rem;
+  margin: 2rem 0 .5rem;
   color: #222;
+  text-align: justify;
+  /*background-color: #121212;*/
 }
 
 @media (min-width: 600px) {
   body {
-    margin-top: 5rem;
+    margin-top: 3.5rem;
   }
 }
 
-a {
-  color: #0074d9; /* From http://clrs.cc */
+a:link {
+  text-decoration: underline;
+  color: #00b0c4;
+}
+
+a:visited {
   text-decoration: none;
+  color: #00b0c4;
 }
 
 a:hover, a:focus {
   text-decoration: underline;
+  color: #dc3522;
 }
 
 h1 {
@@ -176,12 +184,14 @@ word-wrap: break-word;
   border-radius: 50%;
   width: 200px;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   /*margin-top: -20rem;*/
 }
 
 @media (max-width: 500px) {
 .profilephoto {
  margin-top: 1rem;
+ margin-bottom: 1rem;
  }
 }
 
@@ -191,32 +201,33 @@ word-wrap: break-word;
  }
 }
 
-.navigation img {
+.contact img {
   width: 25px;
   height: 25px;
   margin-left: 1em;
   display: inline-block;
+  opacity: .8;
+}
+
+.contact img:hover {
+  opacity: .5;
 }
 
 @media (min-width: 600px) {
-  .navigation img {
+  .contact img {
     width: 35px;
     height: 35px;
-    margin-left: 1em;
-    display: inline-block;
   }
 }
 
-.navigation a {
+.contact a {
   line-height: 13px;
   display: inline-block;
-  /*margin-right: .2em;*/
-  /*padding: 0;*/
 }
 
-.navigation {
+.contact {
   text-align: right;
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
 }
 
 
@@ -297,26 +308,6 @@ pre > code {
 	width: 75px;
 }
 
-.button {
-  margin-top: 2em;
-  margin-left: 1em;
-  display: inline-block;
-  border: 2px solid #111;
-  border-radius: 0.4em;
-  padding: 0.1em 0.75em;
-  font-size: 17px;
-  color: #111;
-  text-align: center;
-}
-
-.button:hover {
-	color: white;
-	background-color: #111;
-	cursor: pointer;
-	text-decoration: none;
-	transition: 0.5s;
-}
-
 .Facebook {
 	transform: scale(1.25);
 }
@@ -324,5 +315,52 @@ pre > code {
 .sharing-buttons {
 	width: 100%;
 }
+
+.footer {
+  text-align: center;
+  color: #858585;
+  border-top: 1px solid #888;
+  font-size: 16px;
 }
 
+.footer a:link {
+  text-decoration: underline;
+  color: #555;
+}
+
+.footer a:visited {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer a:hover, a:focus {
+  text-decoration: underline;
+  color: #222;
+}
+
+::selection {
+  background: #b2ecf2;
+}
+@media (prefers-color-scheme: dark) {
+  body {color: #ddd; background-color: #232323}
+  a:link {color: #80e0eb;}
+  a:visited {color: #80e0eb;}
+  a:hover, a:focus {color: #ec9691;}
+  h1 {color: #dadada;}
+  h4, h5, h6 {color: #eee;}
+  h3 {color: #ec9691;}
+  h2 {color: #aaa}
+  blockquote {color: #aaa;}
+  .footnote {color: #bbb;}
+  .contact img {filter: invert(100%); opacity: .8;}
+  .contact img:hover {opacity: .6;}
+  pre, code {background-color: #1d1d1d;}
+  .profilephoto{filter: brightness(.9)}
+  .footer {color: #aaa;}
+  .footer a:link {color: #ccc;}
+  .footer a:visited {color: #ccc;}
+  .footer a:hover, a:focus {color: #fff;}
+  ::selection {
+    background: #ec9691;
+  }
+}

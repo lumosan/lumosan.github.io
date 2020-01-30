@@ -2,67 +2,27 @@
 layout: header
 ---
 
-<!-- ## asfhajksf -->
+I recently received an M.Sc. in Communication Systems from the [Swiss Federal Institute of Technology in Lausanne (EPFL)](https://www.epfl.ch/en/). Before that, I earned a B.Sc. in Telematics Engineering at [Comillas Pontifical University](https://www.comillas.edu/en/), in Madrid.
 
-### Interests and experience
+### Experience
 
-Good clean read is set up with readability first in mind. Whatever you want to communicate here can be read easily, and without distraction. Of course, it's fully responsive, which means people can read it naturally on any phone, or tablet. Write it in markdown in <code>index.md</code> and get a beautifully published piece.
+During my last semester of studies I completed an internship at Schindler. I designed and implemented a pipeline that classifies patent documents based on the elevator systems and components. I was given the opportunity to work with a patent attorney and a product engineer. Working with experts in these fields was a very enriching experience, allowing me to learn about the documents and products I was dealing with, as well as to make sensible decisions regarding the design of the pipeline and evaluate the final results. I submitted this work as my M.Sc. thesis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+While completing my M.Sc. studies I also worked as a data science intern at [Dathena](https://www.dathena.io/), a data security company based in Singapore. At the time of my internship the company still had not exceeded 50 staff, making it possible to learn about some of the tasks carried out at each department. During my time at the company I contributed to the data protection pipeline.
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Before that, I completed my B.Sc. thesis as a research assistant in the [Transport and Mobility Laboratory](https://www.epfl.ch/labs/transp-or/) at EPFL. I worked on the statistical analysis of passenger satisfaction in railway networks, with the aim of identifying the factors with the greatest impact on passenger satisfaction. After this experience I became especially interested in data science and
+analytics implementations and decided to pursue a Masters degree at EPFL.
 
-### Education
-Back up your stuff with solid, clean citations. Footnotes can be written in markdown and appear like this.[^1] Use as many as you like.[^2]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<!-- ### Education
 
-### Skills
+I received a B.Sc. in  The degree covered many topics at the intersection of Computer Science and Electrical Engineering, including signal processing, software engineering and computer networks.
 
-Simply add the following line anywhere in your markdown:
 
-<pre><code>{% raw  %}
-{% include sharing.html %}
-{% endraw %}
-</code></pre>
 
-and get a nice responsive sharing ribbon.
-
-{% include sharing.html %}
-
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
-
-Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
-
-### Languages
-
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Now you can use all the cool icons you want! [Font Awesome](http://fontawesome.io) is indeed awesome. But wait, you don't need this sweetness and you don't want that little bit of load time from the font awesome css? No problem, just disable it in the `config.yml` file, and it won't be loaded.
-
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>you can make lists...</li>
-  <li><i class="fa-li fa fa-check-square-o"></i>with cool icons like this,</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>even ones that move!</li>
-</ul>
-
-If you need them, you can stick any of the [605 icons](http://fontawesome.io/icons/) anywhere, with any size you like. ([See documentation](http://fontawesome.io/examples/))
-
-<i class="fa fa-building"></i>&nbsp;&nbsp;<i class="fa fa-bus fa-lg"></i>&nbsp;&nbsp;<i class="fa fa-cube fa-2x"></i>&nbsp;&nbsp;<i class="fa fa-paper-plane fa-3x"></i>&nbsp;&nbsp;<i class="fa fa-camera-retro fa-4x">
-
-<!-- ### Add images to make your point
-
-Images play nicely with this template as well. Add diagrams or charts to make your point, and the template will fit them in appropriately.
-
-<img src="images/hello.svg" alt="sample image">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Thanks to [Shu Uesengi](https://github.com/chibicode) for inspiring and providing the base for this template with his excellent work, [solo](https://github.com/chibicode).
-
-<hr>
-
-##### Footnotes:
-
-[^1]: This is a footnote. Click to return.
-
-[^2]: Here is another.
- -->
+I have taken the courses in Data Analysis and Machine Learning, both of which have a strong focus on practical assign-
+ments and have allowed me to gain experience with Python and its main machine learning libraries. For one of the
+final projects my team and I implemented all the fundamental steps of the data science pipeline in order to quantify
+the impact that a certain event had on the Twitter community. I have also gained experience in Deep Learning with
+the PyTorch and Tensorflow frameworks and I am familiar with the Information Retrieval, Data Mining and Natural
+Language Processing concepts and algorithms. -->
