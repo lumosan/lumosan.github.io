@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 html {
   font: 20px/1.7 'Roboto', sans-serif;
@@ -223,7 +224,6 @@ td, th {
 }
 
 pre, code {
-  font: 'Open Sans';
   font-family: monospace;
   background-color: #eee;
 }
@@ -318,6 +318,10 @@ pre > code {
   color: #222;
 }
 
+li {
+   margin:0 0 10px 0;
+}
+
 ::selection {
   background: #b2eaf5;
   color: #222;
@@ -333,8 +337,8 @@ pre > code {
   h2 {color: #aaa}
   blockquote {color: #aaa;}
   .footnote {color: #bbb;}
-  .contact img {filter: invert(100%); opacity: .8;}
-  .contact img:hover {opacity: .6;}
+  .contact img {filter: invert(100%); opacity: .75;}
+  .contact img:hover {opacity: 1;}
   pre, code {background-color: #1d1d1d;}
   .profilephoto{filter: brightness(.9)}
   .footer {color: #aaa;}

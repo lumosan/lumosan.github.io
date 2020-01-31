@@ -35,11 +35,8 @@ Language Processing concepts and algorithms. -->
 #### 2019 · M.Sc. in Communication Systems, spec. in Data Analytics (EPFL)
 
 - _Semester Project_ – Analysis of student behavior during collaborative synchronous writing to automatically determine role taking and writting patterns. Design of the features used to describe authors’ editing patterns.
-
 - _Deep Learning_ – Mathematical basis and use of deep learning methods, as well as applied problems with PyTorch. For this course we trained a model based on LSTM and CNN to predict finger movements from electroencephalograms ([see on GitHub](https://github.com/lumosan/deeplearning2018/tree/master/Projects/Project1)).
-
 - _Machine Learning_ – Analysis and implementation of fundamental techniques in ML using Python. The final project for this course consisted in the implementation of a recommender system for movies based on user ratings, for which we used an ensembled approach ([see on GitHub](https://github.com/lumosan/ml2017-projects/tree/master/project2/project_recommender_system)).
-
 - _Applied Data Analysis_ – Development of data science pipelines with emphasis in practical skills using Python and several libraries for data science, including: Pandas, NumPy, SciPy, Matplotlib, Seaborn, Scikit Learn, Spacy, NLTK, BeautifulSoup and requests.
 
 #### 2016 · B.Sc. in Telematics Engineering (Comillas Pontifical University)
