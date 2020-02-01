@@ -26,7 +26,7 @@ a:link, a:visited {
   color: #018293;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, a:active {
   text-decoration: underline;
   color: #dc3522;
 }
@@ -313,7 +313,7 @@ pre > code {
   color: #555;
 }
 
-.footer a:hover, a:focus {
+.footer a:hover, a:focus, a:active {
   text-decoration: underline;
   color: #222;
 }
@@ -330,7 +330,7 @@ li {
   body {color: #ddd; background-color: #232323}
   a:link {color: #8acec4;}
   a:visited {color: #8acec4;}
-  a:hover, a:focus {color: #f3aa93;}
+  a:hover, a:focus, a:active {color: #f3aa93;}
   h1 {color: #dadada;}
   h4, h5, h6 {color: #eee;}
   h3 {color: #EF8E71;}
@@ -344,7 +344,7 @@ li {
   .footer {color: #aaa;}
   .footer a:link {color: #ccc;}
   .footer a:visited {color: #ccc;}
-  .footer a:hover, a:focus {color: #fff;}
+  .footer a:hover, a:focus, a:active {color: #fff;}
   ::selection {
     background: #8acec4;
     color: #ddd;
