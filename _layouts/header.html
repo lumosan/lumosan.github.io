@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
   <link rel="canonical" href="{{ site.url }}" />
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  {% include analytics.html %}
 </head>
 <body>
   <article>
@@ -19,21 +20,21 @@
          <img class="icon" src="{{ site.baseurl }}/img/resume.svg" alt="Resume"></a>
       <a target="_blank" href="https://www.linkedin.com/in/luciams">
          <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn"></a>
-      <a target="_blank" href="https://keybase.io/lmon">
-         <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/keybase.svg" alt="Keybase"></a>
-      <a target="_blank" href="mailto:contact@luciams.com">
+      <!-- <a target="_blank" href="https://keybase.io/lmon">
+         <img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/keybase.svg" alt="Keybase"></a> -->
+      <a target="_blank" href="mailto:luciamsanchis@gmail.com">
          <img class="icon" src="{{ site.baseurl }}/img/mail.svg" alt="Email"></a>
-
     </div>
     <div class="presentation">
-    <h1><span style="font-weight:300">Lucia</span> <span style="font-weight:500">Montero Sanchis</span></h1>
+    <h1><span>Lucia Montero Sanchis</span></h1>
     <h2>M.Sc. Communication Systems</h2>
     <h2>Specialization in Data Analytics</h2>
     </div>
+    <span>
     <img src="{{ site.baseurl }}/img/photo.jpg" alt="Lucia Montero" class="profilephoto">
+    </span>
     {{ content }}
-
-    <div class="footer"><p><br>Icons by <a href="https://simpleicons.org/">Simple Icons</a><br>Icons by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="http://www.flaticon.com/">flaticon</a></p></div>
+    <div class="footer"><p><br>Icons by <a href="https://simpleicons.org/">Simple Icons</a>, <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="http://www.flaticon.com/">flaticon</a></p></div>
   </div>
   </article>
 </body>
