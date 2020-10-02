@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400&display=swap&subset=latin');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,500&display=swap&text=Lucia%20Montero%20Sanchis');
-
 html {
-  font: 20px/1.7 'Roboto', sans-serif;
+  font: 20px/1.7 'Open Sans';
 }
 
 body {
@@ -13,7 +9,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  html { font: 17px/1.4 'Roboto', sans-serif; }
+  html { font: 17px/1.4 'Open Sans'; }
   body { text-align: left; }
 }
 
@@ -23,19 +19,18 @@ body {
 
 a:link, a:visited {
   text-decoration: underline;
-  color: #5A72B5;
+  color: #315E5D;
 }
 
 a:hover, a:focus, a:active {
   text-decoration: underline;
-  color: #B05460;
+  color: #4A8C87;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.5rem -0.1rem;
-  color: #525690;
+  color: #5F4F76;
   text-rendering: optimizeLegibility;
-  font-family: 'Roboto Condensed';
   line-height: 1.2
 }
 
@@ -47,10 +42,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #212433;
-  font-family: 'Raleway';
+  color: #222;
   font-size: 45px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 1rem;
   margin-left: -2rem;
@@ -62,10 +56,6 @@ h1 {
     font-size: 70px;
     margin-bottom: 1.5rem;
   }
-}
-
-h1 a {
-  color: inherit;
 }
 
 h2 {
@@ -85,7 +75,7 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  color: #B05460;
+  color: #42807B;
   margin: 2rem -2rem 1.75rem -2rem;
   font-size: 28px;
 
@@ -163,7 +153,7 @@ word-wrap: break-word;
 
 .profilephoto {
   border-radius: 50%;
-  width: 200px;
+  height: 200px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   /*margin-top: -20rem;*/
@@ -322,15 +312,15 @@ li {
    margin:0 0 10px 0;
 }
 
-::selection {
-  background: #b2eaf5;
+/*::selection {
+  background: #CBA5A4;
   color: #222;
-}
+}*/
 @media (prefers-color-scheme: dark) {
   body {color: #ddd; background-color: #232323}
   a:link {color: #8acec4;}
   a:visited {color: #8acec4;}
-  a:hover, a:focus, a:active {color: #f3aa93;}
+  a:hover, a:focus, a:active {color: #4A8C87;}
   h1 {color: #dadada;}
   h4, h5, h6 {color: #eee;}
   h3 {color: #EF8E71;}
@@ -345,10 +335,6 @@ li {
   .footer a:link {color: #ccc;}
   .footer a:visited {color: #ccc;}
   .footer a:hover, a:focus, a:active {color: #fff;}
-  ::selection {
-    background: #8acec4;
-    color: #ddd;
-  }
 }
 
 /* ==========================================================================
